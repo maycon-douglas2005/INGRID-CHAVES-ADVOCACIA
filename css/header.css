@@ -1,0 +1,91 @@
+header {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    background-color: #080c15ef;
+    height: 12vh;
+    width: 100vw;
+}
+header h3 {
+    margin: 0;
+}
+header div{
+    width: 20vw;
+    text-align: center;
+    justify-self: center;
+    align-self: center;
+}
+header p{
+    width: 50vw;
+    justify-self: right;
+    text-align: center;
+}
+header hr {
+    margin: 0px;
+    width: 15vw;
+    margin-left: 2vw;
+}
+
+
+
+
+
+
+
+/* ------------- ÁREA DOS MEDIA QUERIES ---------------*/
+
+
+@media only screen and (min-width: 750px) and (max-width: 836px){   
+    header div{
+        margin-bottom: 10px;
+    }
+    header p{
+        font-size: 0.8em;
+    }
+}
+@media only screen and (min-width: 419px) and (max-width: 749px){
+    header {
+        display: grid;
+        grid-template-columns: 30% 70%;
+    }
+    header div{
+        width: 100%;
+        margin-left: 10px;
+    }
+    header h3{
+        font-size: 0.98em;
+    }
+    header hr{
+        width: 28vw;
+        margin-left: 1.4vw;
+    }
+    header p{
+        font-size: 0.8em;
+    }
+}
+@media only screen and (max-width: 418px){
+    header {
+        display: grid;
+        grid-template-columns: 30% 70%;
+    }
+    header div{
+        width: 35vw;
+        margin-left: 30px;
+    }
+    header div h3{
+        font-size: 0.98em;
+    }
+    header p{
+        font-size: 0.8em;
+    }
+    header div hr{
+        width: 31vw;
+    }
+}
+@media only screen and (max-width: 358px){
+    header div h3{
+        font-size: 0.70em;
+    }
+    header p{
+        font-size: 0.6em;
+    }
+}

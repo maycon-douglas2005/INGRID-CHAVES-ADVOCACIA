@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    color: white;
+}
+
+main {
+    margin: 0px;
+    background-color: #2B2D31;
+    height: 88vh;
+    display: grid;
+    place-items: center;
+    grid-template-rows: 20% 70% 10%;
+}
+
+main div.nomeEhr h1 {
+    margin: 0px;
+    font-size: 1.7em;
+    text-align: center;
+}
+
+main div.nomeEhr hr{
+    margin: 0px;
+    width: 90vw;
+}
+
+main div.bioEfoto{
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 80vw;
+}
+
+main div.bioEfoto p{
+    width: 35vw;
+    font-size: 1.4em;
+    text-align: center;
+}
+
+main div.bioEfoto img {
+    height: 55vh;
+    border-radius: 100%;
+    justify-self: center;
+}
+
+main div.botao{
+    height: 8vh;
+    width: 3vw;
+    justify-self: end;
+    align-self: center;
+    margin-bottom: 85vh;
+    background-image: url('../img/Seta.png');
+    background-size: cover;
+    cursor: pointer;
+}
+
+
+
+
+
+
+/* ------------- ÁREA DOS MEDIA QUERIES ---------------*/
+
+@media only screen and  (max-width: 980px){
+    main div.bioEfoto img {
+        height: 45vh;
+        margin-top: 6%;
+    }
+    main div.nomeEhr h1{
+        font-size: 1.7em;   
+    }
+    main div.botao{
+        height: 6vh;
+    }
+}
+
+@media only screen and  (max-width: 667px){
+
+    main div.bioEfoto img {
+        height: 40vh;
+    }
+    main div.nomeEhr h1{
+        margin-top: 7%;  
+        font-size: 1.3em;
+    }
+    main div.bioEfoto p {
+        font-size: 1.2em;
+    } 
+    main div.bioEfoto img {
+        height: 35vh;
+        
+    }
+    main div.botao{
+        height: 5vh;
+        
+    }
+}
+@media only screen and (max-width: 500px){
+    main div.bioEfoto img{
+        height: 30vh;
+        margin-top: 4vh;
+    }
+    main div.nomeEhr h1{
+        font-size: 1em;
+    }
+    main div.bioEfoto p{
+        font-size: 1em;
+    }
+    main div.botao{
+        width: 5vw;
+    }
+}
+@media only screen and (max-width: 385px){
+    main div.bioEfoto img{
+        height: 22vh;
+    }
+    main div.bioEfoto p{
+        font-size: 0.8em;
+    }
+    main div.nomeEhr h1{
+        font-size: 0.8em;
+        margin-top: 12vh;
+    }
+    main div.botao{
+        height: 4vh;
+    }
+    main div.nomeEhr hr {
+        width: 95vw;
+    }
+}
+@media only screen and (max-width: 280px){
+    main div.bioEfoto{
+        margin-right: 7%;
+    }
+    main div.bioEfoto img{
+        height: 22vh;
+    }
+    main div.bioEfoto p{
+        font-size: 0.7em;
+        position: relative;
+        right: 11px;
+    }
+}

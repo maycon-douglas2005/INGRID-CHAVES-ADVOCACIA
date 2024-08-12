@@ -1,0 +1,156 @@
+body {
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    color: white;
+}
+main {
+    margin: 0px;
+    background-color: #2B2D31;
+    height: 88vh;
+    display: grid;
+    place-items: center;
+    grid-template-areas: 
+        "titulo titulo titulo"
+        "botaoVoltar paragrafos imagem"
+    ;
+    grid-template-rows: 23% 67%;
+    grid-template-columns: 5% 52% 43%;
+}
+main div.titulo{
+    grid-area: titulo;
+    width: 100vw;
+    display: grid;
+    justify-content: center;
+    height: 100%;
+}
+main div hr, main div h1 {
+    margin: 0px;
+
+}
+main div hr{
+    width: 70vw; 
+    align-self: flex-start;
+}
+main div h1{
+    font-size: 1.7em;
+    text-align: center;
+    align-self: flex-end;
+}
+main img{
+    height: 55vh;
+    border-radius: 100%;
+    grid-area: imagem;
+}
+main div.paragrafos{
+    grid-area: paragrafos;
+    width: 100%;
+    height: 100%;
+}
+main div p{
+    margin: 8vh;
+    font-size: 1.3em;
+}
+main div.botaoVoltar{
+    background-image: url('../img/Seta.png');
+    height: 8vh;
+    width: 3vw;
+    background-size: cover;
+    cursor: pointer;
+    transform: rotate(180deg);
+    grid-area: botaoVoltar;
+    align-self: center;
+    justify-self: left;
+    margin-bottom: 17.8vh;
+    grid-area: botaoVoltar;
+}
+
+
+
+
+
+/* ------------- ÁREA DOS MEDIA QUERIES ---------------*/
+
+
+
+
+@media only screen and (max-width: 871px){
+    main img{
+        height: 45vh;
+
+    }
+
+    main div p{
+        font-size: 1em;
+    }
+    main div.botaoVoltar{
+        height: 6.5vh;
+    }
+}
+
+@media only screen and (max-width: 705px){
+    main div h1{
+        font-size: 1.4em;
+    }
+    main div p{
+        font-size: 0.8em;
+    }
+    main img {
+        height: 38vh;
+        margin-right: 7vw;
+    }
+    main div.botaoVoltar{
+        height: 4vh;
+    }
+}
+
+@media only screen and (max-width: 517px){
+    main div h1{
+        font-size: 1.1em;
+    }
+    main div p{
+        font-size: 0.7em;
+    }
+    main img{
+        height: 29vh;
+        
+    }
+}
+
+@media only screen and (max-width: 400px){
+    main div.botaoVoltar{
+        height: 3.2vh;
+    }
+    main img{
+        margin-right: 12vw;
+    }
+}
+@media only screen and (max-width: 340px){
+    main img{
+        height: 24vh;
+        position: relative;
+        right: 5px;
+    }
+    main div.botaoVoltar{
+        height: 2.5vh;
+    }
+    main div p{
+        font-size: 0.5em;
+        position: relative;
+        right: 10px;
+    }
+}
+@media only screen and (max-width: 250px){
+    main div p{
+        
+        position: relative;
+        right: 18px;
+    }
+    main img{
+        position: relative;
+        right: 10px;
+    }
+    main div.botaoVoltar{
+        height: 2vh;
+    }
+}
