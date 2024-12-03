@@ -1,7 +1,7 @@
 let botao = document.querySelector('.botao')
 
 function trocarTela() {
-   window.location.href = "../html/especialidades.php"
+   window.location.href = "view/especialidades.php"
 }
 
 botao.addEventListener('click', trocarTela)

@@ -32,6 +32,6 @@
         <div class="botaoAvancar"></div>
 
     </main>
-    <script src="../java_script/botoesContato.js"></script>
+    <script src="../js/botoesContato.js"></script>
 </body>
 </html>

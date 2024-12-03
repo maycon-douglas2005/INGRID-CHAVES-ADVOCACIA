@@ -31,6 +31,6 @@
             <div class="botaoAvancar"></div>
         </section>
     </main>
-    <script src="../java_script/botoesEspecialidades.js"></script>
+    <script src="../js/botoesEspecialidades.js"></script>
 </body>
 </html>

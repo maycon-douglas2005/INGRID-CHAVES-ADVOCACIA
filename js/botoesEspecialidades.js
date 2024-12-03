@@ -1,7 +1,7 @@
 let botaoVoltar = document.querySelector('.botaoVoltar')
 
 function voltarTela() {
-    window.location.href = "../html/index.php"
+    window.location.href = "../index.php"
 }
 
 botaoVoltar.addEventListener('click', voltarTela)
@@ -9,7 +9,7 @@ botaoVoltar.addEventListener('click', voltarTela)
 let botaoAvancar = document.querySelector('.botaoAvancar')
 
 function avancarTela() {
-    window.location.href = "../html/contato.php"
+    window.location.href = "contato.php"
 }
 
 botaoAvancar.addEventListener('click', avancarTela)
