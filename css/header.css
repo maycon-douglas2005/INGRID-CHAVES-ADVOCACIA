@@ -2,27 +2,27 @@ header {
     display: grid;
     grid-template-columns: 25% 75%;
     background-color: #080c15ef;
-    height: 12vh;
-    width: 100vw;
+    height: 12dvh;
+    width: 100dvw;
 }
 header h3 {
     margin: 0;
 }
 header div{
-    width: 20vw;
+    width: 20dvw;
     text-align: center;
     justify-self: center;
     align-self: center;
 }
 header p{
-    width: 50vw;
+    width: 50dvw;
     justify-self: right;
     text-align: center;
 }
 header hr {
     margin: 0px;
-    width: 15vw;
-    margin-left: 2vw;
+    width: 15dvw;
+    margin-left: 2dvw;
 }
 
 
@@ -31,7 +31,7 @@ header hr {
 
 
 
-/* ------------- ÁREA DOS MEDIA QUERIES ---------------*/
+/* ------------- ÁREA DOS MEDIA QUERIES PARA WIDTH ---------------*/
 
 
 @media only screen and (min-width: 750px) and (max-width: 836px){   
@@ -78,7 +78,7 @@ header hr {
         font-size: 0.8em;
     }
     header div hr{
-        width: 31vw;
+        width: 31dvw;
     }
 }
 @media only screen and (max-width: 358px){
@@ -89,3 +89,18 @@ header hr {
         font-size: 0.6em;
     }
 }
+
+
+
+/* ÁREA DOS MEDIA QUERY HEIGHT */ 
+
+@media only screen and (max-height: 470px){
+    header div h3{
+        font-size: 0.6em;
+    }
+    header p{
+        font-size: 0.5em;
+    }
+}
+
+
