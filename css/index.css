@@ -3,6 +3,7 @@ body {
     height: 100dvh;
     width: 100dvw;
     color: white;
+    overflow: hidden;
 }
 
 main {
@@ -23,7 +24,7 @@ main div.nomeEhr h1 {
 
 main div.nomeEhr hr{
     margin: 0px;
-    width: 90dvw;
+    width: 98dvw;
 }
 
 main div.bioEfoto{
@@ -73,23 +74,6 @@ main div.botao{
     }
 }
 
-@media only screen and  (max-width: 882px){
-
-    main div.bioEfoto img {
-        height: 40dvh;
-    }
-    main div.nomeEhr h1{
-        margin-top: 7%;  
-        font-size: 1.3em;
-    }
-    main div.bioEfoto p {
-        font-size: 1.2em;
-    } 
-    main div.bioEfoto img {
-        height: 35dvh;
-    }
-
-}
 @media only screen and (max-width: 694px){
     main div.bioEfoto img{
         height: 30dvh;
@@ -120,45 +104,32 @@ main div.botao{
         font-size: 1em;
     }
 }
-@media only screen and (max-width: 385px){
-    main div.bioEfoto img{
-        height: 22dvh;
-    }
-    main div.bioEfoto p{
-        font-size: 0.8em;
-    }
-    main div.nomeEhr h1{
-        font-size: 0.8em;
-        margin-top: 12dvh;
-    }
-    main div.nomeEhr hr {
-        width: 95dvw;
-    }
-    main div.botao{
-        height: 30px;
-        width: 20px;
 
-    }
-}
-@media only screen and (max-width: 280px){
-    main div.bioEfoto{
-        margin-right: 7%;
-    }
-    main div.bioEfoto img{
-        height: 22dvh;
-    }
-    main div.bioEfoto p{
-        font-size: 0.7em;
-        position: relative;
-        right: 11px;
-    }
-}
+
 
 
 
 /* -------------------- Media query para height e width */ 
 
 
+@media only screen and (max-width: 1024px) and (height: 1366px){
+    main div.bioEfoto img{
+        height: 500px;
+        margin-top: 50px;
+    }
+    main div.bioEfoto p{
+        font-size: 2rem;
+        position: relative;
+        right: 30px;
+    }
+    main div.botao{
+        height: 60px;
+        width: 50px;
+    }
+    main div.nomeEhr h1{
+        font-size: 2.5em;   
+    }
+} 
 @media only screen and (max-height: 529px) and (max-width: 244px){
     main div.bioEfoto img{
         height: 100px;
@@ -182,7 +153,7 @@ main div.botao{
 
 @media only screen and (max-width: 912px) and (max-height: 1368px ) {
     main div.bioEfoto img{
-        height: 400px;
+        height: 270px;
         margin-top: 50px;
     }
 }
@@ -216,7 +187,61 @@ main div.botao{
 
 @media only screen and (max-width: 412px) and (max-height: 914px){
     main div.bioEfoto img{
-        height: 200px;
+        height: 200px;   
+    }
+}
+
+@media only screen and (max-width: 385px) and (max-height: 616px){
+    main div.bioEfoto img{
+        height: 150px;
+    }
+    main div.bioEfoto p{
+        font-size: 0.8em;
         
+    }
+    main div.nomeEhr h1{
+        font-size: 0.8em;
+        margin-top: 12dvh;
+    }
+    main div.nomeEhr hr {
+        width: 95dvw;
+    }
+    main div.botao{
+        height: 30px;
+        width: 20px;
+
+    }
+}
+
+@media only screen and (max-width: 280px) and (max-height:616px){
+    main div.bioEfoto{
+        margin-right: 7%;
+    }
+    main div.bioEfoto img{
+        height: 19dvh;
+    }
+    main div.bioEfoto p{
+        font-size: 0.7em;
+        position: relative;
+        right: 11px;
+    }
+}
+
+@media only screen and  (max-width: 375px){
+    main div.nomeEhr h1{
+        font-size: 1em;   
+    }
+
+}
+
+@media only screen and (max-width: 451px) {
+    main div.bioEfoto img{
+        height: 20dvh;
+    }
+}
+
+@media only screen and (max-width: 356px){
+    main div.bioEfoto img{
+        height: 13dvh;
     }
 }
