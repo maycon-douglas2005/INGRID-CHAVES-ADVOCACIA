@@ -5,6 +5,7 @@ body {
     
 }
 main {
+    
     margin: 0px;
     width: 100%;
     display: grid;
@@ -15,9 +16,10 @@ main {
     "dadosEfoto"
     ;
 }
-main div {
+main div.titulo {
     grid-area: titulo;
     height: 10vh;
+    width: 100%;
 }
 main div h1 {
     margin: 0;
@@ -26,7 +28,7 @@ main div h1 {
 }
 main div hr{
     margin: 0;
-    width: 90vw;
+    width: 99vw;
 }
 
 
@@ -49,6 +51,7 @@ main section div.paragrafos{
 }
 main section div.paragrafos p{
     margin: 50px 0;
+    font-size: 1.2em;
 }
 main section img {
     height: 300px;
@@ -70,6 +73,7 @@ main section div.botaoVoltar{
     transform: rotate(180deg);
     align-self: center;
     justify-self: baseline;
+    margin-bottom: 60px;
 }
 main section div.botaoAvancar{
     grid-area: botaoAvancar;
@@ -80,6 +84,7 @@ main section div.botaoAvancar{
     cursor:pointer;
     align-self: center;
     justify-self: end;
+    margin-bottom: 60px;
 }
 
 @media only screen and (max-width: 650px){
@@ -96,6 +101,19 @@ main section div.botaoAvancar{
         ;
         grid-template-columns: 10% 80% 10%;
         grid-template-rows: 70% 30%;
+        
+    }
+}
+@media only screen and (max-width: 425px){
+    main section img {
+        margin-top: 10px;
+        
+    }
+}
+
+@media only screen and (max-width: 390px){
+    main section img {
+        height: 200px;
         
     }
 }

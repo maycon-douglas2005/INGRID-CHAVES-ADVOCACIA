@@ -11,7 +11,7 @@
 <body>
     <?php include('../include/header.html') ?>
     <main>
-        <div>
+        <div class="titulo">
             <h1>MINHAS ESPECIALIDADES</h1>
             <hr>
         </div>

@@ -67,7 +67,7 @@ header hr {
     header {
         display: grid;
         grid-template-columns: 30% 70%;
-        width: 100%;
+        
     }
     header div{
         width: 35vw;

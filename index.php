@@ -19,7 +19,7 @@
             <hr>
         </div>
         
-        <div class="bioEfoto">
+        <div class="bio">
             <p>
                 Advogada e bacharel em Direito pela 
                 FACULDADE FAPAN, atuante na área 
@@ -29,8 +29,8 @@
                 Direito de Família e Direito Criminal, inclusive<br> 
                 em demandas extrajudiciais.  
             </p>
-            <img src="img/perfil.jpeg" alt="Foto de perfil de Ingrid Chaves">
         </div>
+        <img src="img/perfil.jpeg" alt="Foto de perfil de Ingrid Chaves">
 
         <div class="botao"></div>
     </main>

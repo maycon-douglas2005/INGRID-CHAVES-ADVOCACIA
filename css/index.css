@@ -4,11 +4,12 @@ body {
     width: 100dvw;
     color: white;
     overflow: hidden;
+    background-color: #2B2D31;  
 }
 
 main {
     margin: 0px;
-    background-color: #2B2D31;
+    
     height: 88dvh;
     width: 100dvw;
     display: grid;
@@ -27,20 +28,17 @@ main div.nomeEhr hr{
     width: 98dvw;
 }
 
-main div.bioEfoto{
+main div.bio{
     margin: 0px;
-    display: grid;
-    grid-template-columns: 50% 50%;
-    width: 80dvw;
 }
 
-main div.bioEfoto p{
+main div.bio p{
     width: 35dvw;
     font-size: 1.4em;
     text-align: center;
 }
 
-main div.bioEfoto img {
+main img {
     height: 55dvh;
     border-radius: 100%;
     justify-self: center;
@@ -242,6 +240,6 @@ main div.botao{
 
 @media only screen and (max-width: 356px){
     main div.bioEfoto img{
-        height: 13dvh;
+        height: 20dvh;
     }
 }

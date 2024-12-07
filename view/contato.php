@@ -27,9 +27,6 @@
 
         <img src="../img/perfil.jpeg" alt="Foto de Ingrid Chaves">
 
-        <!-- a div/botão abaixo, vulgo botaoAvancar, esta como display none, e a explicação para isso está no 
-        arquivo css da pagina. -->
-        <div class="botaoAvancar"></div>
 
     </main>
     <script src="../js/botoesContato.js"></script>
