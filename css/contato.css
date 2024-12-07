@@ -55,7 +55,8 @@ main div.paragrafos p{
 
 main img {
     grid-area: imagem;
-    height: 300px;
+    height: 420px;
+    width: 50%;
     border-radius: 100%;
 }
 

@@ -47,7 +47,7 @@ main div.bio p{
 }
 
 main img {
-    height: 300px;
+    height: 420px;
     border-radius: 100%;
     justify-self: center;
     grid-area: foto;
