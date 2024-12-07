@@ -103,6 +103,9 @@ main section div.botaoAvancar{
         grid-template-rows: 70% 30%;
         
     }
+    main section img{
+        height: 250px;
+    }
 }
 @media only screen and (max-width: 425px){
     main section img {
@@ -113,7 +116,7 @@ main section div.botaoAvancar{
 
 @media only screen and (max-width: 390px){
     main section img {
-        height: 200px;
+        height: 250px;
         
     }
 }

@@ -3,18 +3,25 @@ body {
     height: 100dvh;
     width: 100dvw;
     color: white;
-    overflow: hidden;
     background-color: #2B2D31;  
 }
 
 main {
     margin: 0px;
-    
     height: 88dvh;
     width: 100dvw;
     display: grid;
     place-items: center;
-    grid-template-rows: 20% 70% 10%;
+    grid-template-columns: 40% 50% 10%;
+    grid-template-rows: 10% 90%;
+    grid-template-areas: 
+    "titulo titulo titulo"
+    "bio foto botao"
+    ;
+}
+main div.nomeEhr{
+    grid-area: titulo;
+    margin-bottom: 20px;
 }
 
 main div.nomeEhr h1 {
@@ -30,6 +37,7 @@ main div.nomeEhr hr{
 
 main div.bio{
     margin: 0px;
+    grid-area: bio;
 }
 
 main div.bio p{
@@ -39,9 +47,10 @@ main div.bio p{
 }
 
 main img {
-    height: 55dvh;
+    height: 300px;
     border-radius: 100%;
     justify-self: center;
+    grid-area: foto;
 }
 
 main div.botao{
@@ -49,197 +58,61 @@ main div.botao{
     width: 40px;
     justify-self: end;
     align-self: center;
-    margin-bottom: 85dvh;
+    margin-bottom: 90px;
     background-image: url('../img/Seta.png');
     background-size: contain;
     cursor: pointer;
+    grid-area: botao;
 }
 
-
-
-
-
-
-/* ------------- ÁREA DOS MEDIA QUERIES ---------------*/
-
-@media only screen and  (max-width: 1100px){
-    main div.bioEfoto img {
-        height: 45dvh;
-        margin-top: 6%;
+@media only screen and (max-width: 650px){
+    main {
+        grid-template-rows: 15% 50% 35%;
+        grid-template-columns: 90% 10%;
+        grid-template-areas: 
+        "titulo titulo"
+        "foto botao"
+        "bio bio"
+        ;
     }
-    main div.nomeEhr h1{
-        font-size: 1.7em;   
+    main div.bio p{
+        font-size: 1.3rem;
+        width: 100%;
     }
-}
-
-@media only screen and (max-width: 694px){
-    main div.bioEfoto img{
-        height: 30dvh;
-        margin-top: 4dvh;
+    main div.bio{
+        grid-area: bio;
+        width: 100%;     
     }
-
-    main div.bioEfoto p{
-        font-size: 1.2em;
-        position: relative;
-        right: 30px;
+    main img {
+        height: 250px;
+        margin-left: 50px;
     }
-
-}
-
-
-@media only screen and (max-width:500px) {
-    main div.bioEfoto img{
-        height: 30dvh;
-        margin-top: 4dvh;
-
+    main div.nomeEhr h1 {
+        font-size: 1.4em;
+        
     }
     main div.botao{
-        height: 32px;
-        width: 22px;
-
-    }
-    main div.bioEfoto p{
-        font-size: 1em;
+        margin-bottom: 0px;
+        margin-top: 80px;
     }
 }
+@media only screen and (max-width:420px){
 
-
-
-
-
-/* -------------------- Media query para height e width */ 
-
-
-@media only screen and (max-width: 1024px) and (height: 1366px){
-    main div.bioEfoto img{
-        height: 500px;
-        margin-top: 50px;
-    }
-    main div.bioEfoto p{
-        font-size: 2rem;
-        position: relative;
-        right: 30px;
+    main div.bio p{
+        font-size: 1.1rem;
+        
     }
     main div.botao{
-        height: 60px;
-        width: 50px;
-    }
-    main div.nomeEhr h1{
-        font-size: 2.5em;   
-    }
-} 
-@media only screen and (max-height: 529px) and (max-width: 244px){
-    main div.bioEfoto img{
-        height: 100px;
-        margin-top: 50px;
-    }
-}
-
-@media only screen and (max-width: 500px) and (max-height: 896px){
-    main div.bioEfoto img{
-        height: 170px;
-        margin-top: 50px;
+        height: 50px;
+        width: 40px;
+        justify-self: end;
+        align-self: center;
+        margin-bottom: 0px;
+        margin-top: 80px;
+        background-image: url('../img/Seta.png');
+        background-size: contain;
+        cursor: pointer;
+        grid-area: botao;
     }
 }
 
-@media only screen and (max-width: 500px) and (max-height: 932px){
-    main div.bioEfoto img{
-        height: 170px;
-        margin-top: 50px;
-    }
-}
-
-@media only screen and (max-width: 912px) and (max-height: 1368px ) {
-    main div.bioEfoto img{
-        height: 270px;
-        margin-top: 50px;
-    }
-}
-
-@media only screen and (max-width: 414px) and (max-height: 896px){
-    main div.bioEfoto img{
-        height: 200px;
-        
-    }
-}
-
-@media only screen and (max-width: 430px) and (max-height: 932px) {
-    main div.bioEfoto img{
-        height: 200px;
-        
-    }
-}
-@media only screen and (max-width: 540px) and (max-height: 720px){
-    main div.bioEfoto img{
-        height: 200px;
-        
-    }
-}
-
-@media only screen and (max-width: 350px) and (max-height: 882px){
-    main div.bioEfoto img{
-        height: 200px;
-        
-    }
-}
-
-@media only screen and (max-width: 412px) and (max-height: 914px){
-    main div.bioEfoto img{
-        height: 200px;   
-    }
-}
-
-@media only screen and (max-width: 385px) and (max-height: 616px){
-    main div.bioEfoto img{
-        height: 150px;
-    }
-    main div.bioEfoto p{
-        font-size: 0.8em;
-        
-    }
-    main div.nomeEhr h1{
-        font-size: 0.8em;
-        margin-top: 12dvh;
-    }
-    main div.nomeEhr hr {
-        width: 95dvw;
-    }
-    main div.botao{
-        height: 30px;
-        width: 20px;
-
-    }
-}
-
-@media only screen and (max-width: 280px) and (max-height:616px){
-    main div.bioEfoto{
-        margin-right: 7%;
-    }
-    main div.bioEfoto img{
-        height: 19dvh;
-    }
-    main div.bioEfoto p{
-        font-size: 0.7em;
-        position: relative;
-        right: 11px;
-    }
-}
-
-@media only screen and  (max-width: 375px){
-    main div.nomeEhr h1{
-        font-size: 1em;   
-    }
-
-}
-
-@media only screen and (max-width: 451px) {
-    main div.bioEfoto img{
-        height: 20dvh;
-    }
-}
-
-@media only screen and (max-width: 356px){
-    main div.bioEfoto img{
-        height: 20dvh;
-    }
-}

@@ -14,6 +14,7 @@
     <?php include('include/header.html') ?>
     
     <main id="main"> 
+        
         <div class="nomeEhr">
             <h1 id="o">INGRID CAROLINE ALVES PEREIRA CHAVES</h1>
             <hr>
@@ -30,6 +31,7 @@
                 em demandas extrajudiciais.  
             </p>
         </div>
+
         <img src="img/perfil.jpeg" alt="Foto de perfil de Ingrid Chaves">
 
         <div class="botao"></div>
