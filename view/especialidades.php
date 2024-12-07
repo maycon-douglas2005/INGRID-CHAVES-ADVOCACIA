@@ -11,26 +11,25 @@
 <body>
     <?php include('../include/header.html') ?>
     <main>
-        <div>
+        <div class="titulo">
             <h1>MINHAS ESPECIALIDADES</h1>
             <hr>
         </div>
         <section>
-            <div class="especialidadesEfoto">
-                <div class="paragrafos">
+            
+            <div class="paragrafos">
                     <p>&rarr; ATUAÇÃO ESTRATÉGICA NO DIREITO DO TRABALHADOR</p>
                     <p>&rarr; DIREITO DO CONSUMIDOR</p>
                     <p>&rarr; DIREITO DE FAMÍLIA</p>
                     <p>&rarr; DIREITO CIVIL</p>
                     <p>&rarr; DIREITO CRIMINAL</p>
-                </div>
-                <img src="../img/perfil.jpeg" alt="Foto de perfil de Ingrid Chaves">
             </div>
+            <img src="../img/perfil.jpeg" alt="Foto de perfil de Ingrid Chaves">
 
             <div class="botaoVoltar"></div>
             <div class="botaoAvancar"></div>
         </section>
     </main>
-    <script src="../java_script/botoesEspecialidades.js"></script>
+    <script src="../js/botoesEspecialidades.js"></script>
 </body>
 </html>
