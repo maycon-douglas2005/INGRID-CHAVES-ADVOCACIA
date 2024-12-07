@@ -24,7 +24,7 @@
                     <p>&rarr; DIREITO CIVIL</p>
                     <p>&rarr; DIREITO CRIMINAL</p>
             </div>
-            <img src="../img/perfil.jpeg" alt="Foto de perfil de Ingrid Chaves">
+            <img src="../img/nina3.jpg" alt="Foto de perfil de Ingrid Chaves">
 
             <div class="botaoVoltar"></div>
             <div class="botaoAvancar"></div>

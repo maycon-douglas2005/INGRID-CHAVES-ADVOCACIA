@@ -25,7 +25,7 @@
             <p>&rarr; Me mande um e-mail: ingridcaroline@gmail.com</p>
         </div>
 
-        <img src="../img/perfil.jpeg" alt="Foto de Ingrid Chaves">
+        <img src="../img/nina1.jpg" alt="Foto de Ingrid Chaves">
 
 
     </main>

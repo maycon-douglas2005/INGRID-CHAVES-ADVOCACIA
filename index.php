@@ -32,7 +32,7 @@
             </p>
         </div>
 
-        <img src="img/perfil.jpeg" alt="Foto de perfil de Ingrid Chaves">
+        <img src="img/nina2.jpg" alt="Foto de perfil de Ingrid Chaves">
 
         <div class="botao"></div>
     </main>
