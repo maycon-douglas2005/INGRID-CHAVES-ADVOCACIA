@@ -16,7 +16,7 @@
     <main id="main"> 
         
         <div class="nomeEbio">
-            <h1 id="o">INGRID CAROLINE ALVES PEREIRA CHAVES</h1>
+            <h1>INGRID CAROLINE ALVES PEREIRA CHAVES</h1>
             <p>
                 Advogada e bacharel em Direito pela 
                 FACULDADE FAPAN, atuante na área 

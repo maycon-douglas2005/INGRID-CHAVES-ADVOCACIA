@@ -2,8 +2,8 @@ body {
     margin: 0;
     height: 100dvh;
     width: 100dvw;
-    color: white;
-    background-color: #2B2D31;  
+    color: black;
+    background-color: white;  
 }
 
 main {
@@ -58,7 +58,7 @@ main div.especialidades p{
     text-align: left;
     margin-left: 70px;
     display: inline-block;
-    background-color: #1d1e20;
+    background-color: #808080;
     border-radius: 1em;
     padding: 7px;
 }
@@ -66,7 +66,7 @@ main div.especialidades p{
 
 main img {
     height: 390px;
-    width: 400px;
+    width: 300px;
     justify-self: end;
     grid-area: foto;
 }
@@ -75,7 +75,7 @@ main div.botao{
     height: 50px;
     width: 40px;
     justify-self: end;
-    align-self: center;
+    align-self: baseline;
     margin-bottom: 90px;
     background-image: url('../img/Seta.png');
     background-size: contain;
