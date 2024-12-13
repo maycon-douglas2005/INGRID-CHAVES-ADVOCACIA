@@ -19,7 +19,7 @@
             <h1>CONTATO</h1>
             <div class="paragrafos">
                 <p>Tipo de Consultoria: Online e Presencial (com hora marcada)</p>
-                <p>Me chame no WhatsApp: (11) 95834-6567</p>
+                <p>Me chame no WhatsApp: (11) 95834-6567 <a href="https://wa.me/5511958337562?text=Olá!%20Gostaria%20de%20realizar%20um%20agendamento." aria-label="Enviar uma mensagem no WhatsApp para Ingrid Chaves"><img id="iconeWhatsApp" src="../img/whats.jpeg" alt="icone do aplicativo whatszapp"></a></p>
                 <p>Me mande um e-mail: ingridcaroline@gmail.com</p>
             </div>
 

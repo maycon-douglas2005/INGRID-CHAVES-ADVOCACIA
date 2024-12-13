@@ -65,6 +65,12 @@ main img {
     justify-self: baseline;
 }
 
+
+#iconeWhatsApp{
+    height: 20px;
+    width: 20px;
+}
+
 @media only screen and (max-width: 650px){
     main {
         display: grid;
