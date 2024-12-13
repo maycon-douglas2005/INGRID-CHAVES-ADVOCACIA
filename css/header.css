@@ -21,8 +21,11 @@ header p{
 }
 header hr {
     margin: 0px;
-    width: 15dvw;
+    width: 200px;
     margin-left: 2dvw;
+    background-color: #FFD700;
+    height: 1px;
+    border: 0px;
 }
 
 
