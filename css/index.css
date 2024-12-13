@@ -18,7 +18,9 @@ main {
     "nomeEbio foto botato"
     "especialidades foto botao"
     ;
+    font-family: math;
 }
+
 main div.nomeEbio{
     grid-area: nomeEbio;
     width: 100%;
@@ -38,8 +40,6 @@ main div.nomeEbio p{
     text-align: left;
     margin: 20px 80px 0px 70px
 }
-
-
 
 main div.especialidades{
     grid-area: especialidades;
@@ -63,7 +63,6 @@ main div.especialidades p{
     padding: 7px;
 }
 
-
 main img {
     height: 390px;
     width: 300px;
@@ -82,7 +81,6 @@ main div.botao{
     cursor: pointer;
     grid-area: botao;
 }
-
 
 
 

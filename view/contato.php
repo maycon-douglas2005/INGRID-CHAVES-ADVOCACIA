@@ -14,15 +14,15 @@
 
         <div class="botaoVoltar"></div>
 
-        <div class="titulo">
-            <h1>CONTATO</h1>
-            <hr>
-        </div>
+        <div class="tituloEparagrafos">
 
-        <div class="paragrafos">
-            <p>&rarr; Online e Presencial (com hora marcada)</p>
-            <p>&rarr; Me chame no WhatsApp: (11) 95834-6567</p>
-            <p>&rarr; Me mande um e-mail: ingridcaroline@gmail.com</p>
+            <h1>CONTATO</h1>
+            <div class="paragrafos">
+                <p>Tipo de Consultoria: Online e Presencial (com hora marcada)</p>
+                <p>Me chame no WhatsApp: (11) 95834-6567</p>
+                <p>Me mande um e-mail: ingridcaroline@gmail.com</p>
+            </div>
+
         </div>
 
         <img src="../img/nina1.jpg" alt="Foto de Ingrid Chaves">
