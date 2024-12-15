@@ -109,32 +109,9 @@ main div.botao{
 
 }
 
-
-/*
-@media only screen and (max-width: 621px){
-    main {
-        grid-template-columns: 90% 10%;
-        grid-template-rows: 80% 20% 20%;
-        grid-template-areas: 
-        "foto botao"
-        "nomeEbio botao"
-        "especialidades botato"
-        ;
-        }
-        main img {
-            justify-self: center;
-            align-self: end;
-        }
-        main div.especialidades{
-            grid-area: especialidades;
-            width: 100%;
-            align-self: baseline;
-        }
-        main div.nomeEbio{
-            grid-area: nomeEbio;
-            width: 100%;
-            align-self: end;
-        }
+@media only screen and (max-height: 580px){
+    main img {
+        height: 300px;
+        width: 210px;
+    }
 }
-
-*/

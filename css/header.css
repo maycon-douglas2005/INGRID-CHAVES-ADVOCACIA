@@ -13,9 +13,11 @@ header div{
     text-align: center;
     justify-self: center;
     align-self: center;
+    display: grid;
+    place-items: center;
 }
 header p{
-    width: 50dvw;
+    width: 90%;
     justify-self: right;
     text-align: center;
     color: #FFD700;
@@ -23,7 +25,6 @@ header p{
 header hr {
     margin: 0px;
     width: 200px;
-    margin-left: 2dvw;
     background-color: #FFD700;
     height: 1px;
     border: 0px;
@@ -42,9 +43,7 @@ header hr {
     header div{
         margin-bottom: 10px;
     }
-    header p{
-        font-size: 0.8em;
-    }
+
 }
 @media only screen and (min-width: 419px) and (max-width: 749px){
     header {
@@ -64,7 +63,8 @@ header hr {
         margin-left: 1.4vw;
     }
     header p{
-        font-size: 0.8em;
+        font-size: 0.9em;
+        margin-top: 20px;
     }
 }
 @media only screen and (max-width: 418px){
@@ -81,7 +81,8 @@ header hr {
         font-size: 0.98em;
     }
     header p{
-        font-size: 0.8em;
+        font-size: 0.85em;
+        margin-top: 25px;
     }
     header div hr{
         width: 31dvw;
@@ -92,7 +93,8 @@ header hr {
         font-size: 0.70em;
     }
     header p{
-        font-size: 0.6em;
+        font-size: 0.7em;
+        margin-top: 20px;
     }
 }
 
