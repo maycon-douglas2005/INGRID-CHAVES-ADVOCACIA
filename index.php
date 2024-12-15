@@ -15,21 +15,27 @@
     
     <main id="main"> 
         
-        <div class="nomeEhr">
-            <h1 id="o">INGRID CAROLINE ALVES PEREIRA CHAVES</h1>
-            <hr>
-        </div>
-        
-        <div class="bio">
+        <div class="nomeEbio">
+            <h1>INGRID CAROLINE ALVES PEREIRA CHAVES</h1>
             <p>
                 Advogada e bacharel em Direito pela 
                 FACULDADE FAPAN, atuante na área 
                 jurídica desde 2020 e com vasta 
                 experiência em Direito Trabalhista, 
                 Direito do Consumidor, Direito Civil, 
-                Direito de Família e Direito Criminal, inclusive<br> 
+                Direito de Família e Direito Criminal, inclusive 
                 em demandas extrajudiciais.  
             </p>
+        </div>
+
+        <div class="especialidades">
+            <h2>Especialidades:</h2>
+
+            <p>Atuação Estratégica no Direito do Trabalhador</p>
+            <p>Direito do Consumidor</p>
+            <p>Direito Civil</p>
+            <p>Direito de Família</p>
+            <p>Direito Criminal</p>
         </div>
 
         <img src="img/nina2.jpg" alt="Foto de perfil de Ingrid Chaves">

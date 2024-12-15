@@ -2,8 +2,8 @@ body {
     margin: 0;
     height: 100dvh;
     width: 100dvw;
-    color: white;
-    background-color: #2B2D31;  
+    color: black;
+    background-color: white;  
 }
 
 main {
@@ -12,44 +12,65 @@ main {
     width: 100dvw;
     display: grid;
     place-items: center;
-    grid-template-columns: 40% 50% 10%;
-    grid-template-rows: 10% 90%;
+    grid-template-columns: 60% 30% 10%;
+    grid-template-rows: 40% 60%;
     grid-template-areas: 
-    "titulo titulo titulo"
-    "bio foto botao"
+    "nomeEbio foto botao"
+    "especialidades foto botao"
     ;
-}
-main div.nomeEhr{
-    grid-area: titulo;
-    margin-bottom: 20px;
+    font-family: math;
 }
 
-main div.nomeEhr h1 {
+main div.nomeEbio{
+    grid-area: nomeEbio;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    
+}
+
+main div.nomeEbio h1 {
     margin: 0px;
-    font-size: 1.7em;
-    text-align: center;
+    font-size: 1.3em;
+    margin-left: 70px;
+    text-decoration: underline;
+    text-decoration-color: #FFD700;
+    align-self: end;
 }
 
-main div.nomeEhr hr{
-    margin: 0px;
-    width: 98dvw;
+main div.nomeEbio p{
+    font-size: 1.1em;
+    text-align: left;
+    margin: 20px 80px 0px 70px
 }
 
-main div.bio{
-    margin: 0px;
-    grid-area: bio;
+main div.especialidades{
+    grid-area: especialidades;
+    width: 100%;
+    height: 100%;
+    align-self: end;
 }
 
-main div.bio p{
-    width: 35dvw;
-    font-size: 1.4em;
-    text-align: center;
+main div.especialidades h2{
+    text-decoration: underline;
+    text-decoration-color: #FFD700;
+    margin-left: 70px;
+}
+
+main div.especialidades p{
+    font-size: 1.1em;
+    text-align: left;
+    margin-left: 70px;
+    display: inline-block;
+    background-color: #808080;
+    border-radius: 1em;
+    padding: 7px;
 }
 
 main img {
-    height: 420px;
-    border-radius: 100%;
-    justify-self: center;
+    height: 390px;
+    width: 300px;
+    justify-self: end;
     grid-area: foto;
 }
 
@@ -65,54 +86,32 @@ main div.botao{
     grid-area: botao;
 }
 
-@media only screen and (max-width: 650px){
+
+
+/*           MEDIA QUERIES     */
+
+
+
+@media only screen and (max-width: 840px){
     main {
-        grid-template-rows: 15% 50% 35%;
-        grid-template-columns: 90% 10%;
-        grid-template-areas: 
-        "titulo titulo"
-        "foto botao"
-        "bio bio"
-        ;
-    }
-    main div.bio p{
-        font-size: 1.3rem;
-        width: 100%;
-    }
-    main div.bio{
-        grid-area: bio;
-        width: 100%;     
+    grid-template-columns: 90% 10%;
+    grid-template-rows: 80% auto auto;
+    grid-template-areas: 
+    "foto botao"
+    "nomeEbio botao"
+    "especialidades botato"
+    ;
     }
     main img {
-        height: 250px;
+        justify-self: center;
         margin-left: 50px;
     }
-    main div.nomeEhr h1 {
-        font-size: 1.4em;
-        
-    }
-    main div.botao{
-        margin-bottom: 0px;
-        margin-top: 80px;
-    }
-}
-@media only screen and (max-width:420px){
 
-    main div.bio p{
-        font-size: 1.1rem;
-        
-    }
-    main div.botao{
-        height: 50px;
-        width: 40px;
-        justify-self: end;
-        align-self: center;
-        margin-bottom: 0px;
-        margin-top: 80px;
-        background-image: url('../img/Seta.png');
-        background-size: contain;
-        cursor: pointer;
-        grid-area: botao;
-    }
 }
 
+@media only screen and (max-height: 580px){
+    main img {
+        height: 300px;
+        width: 210px;
+    }
+}
