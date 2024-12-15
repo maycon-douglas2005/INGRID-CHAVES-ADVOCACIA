@@ -20,7 +20,7 @@
             <div class="paragrafos">
                 <p>Tipo de Consultoria: Online e Presencial (com hora marcada)</p>
                 <p>Me chame no WhatsApp: (11) 95834-6567 <a href="https://wa.me/5511958337562?text=Olá!%20Gostaria%20de%20realizar%20um%20agendamento." aria-label="Enviar uma mensagem no WhatsApp para Ingrid Chaves"><img id="iconeWhatsApp" src="../img/whats.jpeg" alt="icone do aplicativo whatszapp"></a></p>
-                <p>Me mande um e-mail: ingridcaroline@gmail.com</p>
+                <p>Me mande um e-mail: ingridcaroline@gmail.com <a href="mailto:ingridcaroline@gmail.com?subject=Realizar%20Agendamento&body=Olá,%20gostaria%20de%20realizar%20um%20agendamento..." aria-label="Enviar um E-mail para Ingrid Chaves" ><img src="../img/icone_gmail.png" id="iconeGmail" alt="icone do Gmail"></a></p>
             </div>
 
         </div>
