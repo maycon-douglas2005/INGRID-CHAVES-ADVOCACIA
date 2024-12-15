@@ -21,6 +21,8 @@ header p{
     justify-self: right;
     text-align: center;
     color: #FFD700;
+    font-style: italic;
+    font-weight: bold;
 }
 header hr {
     margin: 0px;
