@@ -9,19 +9,27 @@
 </head>
 
 <body>
+
+
+
+
+
+
+
+
     <?php include('include/header.html'); ?>
 
     <main class="carousel slide container-fluid" id="carouselFather" data-bs-ride="carousel">
 
         <div class="carousel-inner">
 
-            <section class="carousel-item active " data-bs-interval="8000">
+            <section class="carousel-item active " data-bs-interval="1000000">
                 <div class="content_slide_1 d-flex justify-content-center">
 
                     <div class="col-6 d-flex flex-column justify-content-evenly">
                         <div class="row nomeEbio ms-2 mt-2">
                             <h1 class="fs-3">INGRID CAROLINE ALVES PEREIRA CHAVES</h1>
-                            <p class="fs-5">
+                            <p class="fs-5 d-none d-md-flex">
                                 Advogada e bacharel em Direito pela
                                 FACULDADE FAPAN, atuante na área
                                 jurídica desde 2020 e com vasta
@@ -30,17 +38,21 @@
                                 Direito de Família e Direito Criminal, inclusive
                                 em demandas extrajudiciais.
                             </p>
+                            <p class="fs-5 d-flex d-md-none">
+                                Advogada com mais de 5 anos de mercado.</span> <br>
+                                Especialista em Direito Trabalhista. <br>                              
+                            </p>
                         </div>
 
                         <div class="row especialidades ms-2 mt-2">
                             <h2>Especialidades:</h2>
 
                             <ul class="list-unstyled">
-                                <li class="fs-5 ps-1 my-1 w-75" style="color: white; background-color: #2c2f36cf;">Atuação Estratégica no Direito do Trabalhador</li>
-                                <li class="fs-5 ps-1 my-1 w-50" style="color: white; background-color: #2c2f36cf;">Direito do Consumidor</li>
-                                <li class="fs-5 ps-1 my-1 w-25" style="color: white; background-color: #2c2f36cf;">Direito Civil</li>
-                                <li class="fs-5 ps-1 my-1 w-50" style="color: white; background-color: #2c2f36cf;">Direito de Família</li>
-                                <li class="fs-5 ps-1 my-1 w-25" style="color: white; background-color: #2c2f36cf;">Direito Criminal</li>
+                                <li class="fs-5 ps-1 my-1 col-11 col-lg-9 col-xl-9" style="color: white; background-color: #2c2f36cf;">Atuação Estratégica no Direito do Trabalhador</li>
+                                <li class="fs-5 ps-1 my-1 col-11 col-lg-6 col-xl-6" style="color: white; background-color: #2c2f36cf;">Direito do Consumidor</li>
+                                <li class="fs-5 ps-1 my-1 col-11 col-lg-3 col-xl-3" style="color: white; background-color: #2c2f36cf;">Direito Civil</li>
+                                <li class="fs-5 ps-1 my-1 col-11 col-lg-5 col-xl-6" style="color: white; background-color: #2c2f36cf;">Direito de Família</li>
+                                <li class="fs-5 ps-1 my-1 col-11 col-lg-4 col-xl-4" style="color: white; background-color: #2c2f36cf;">Direito Criminal</li>
                             </ul>
                             
                         </div>
@@ -58,7 +70,7 @@
 
             </section>
 
-            <section class="carousel-item " data-bs-interval="8000">
+            <section class="carousel-item " data-bs-interval="1000000">
                 
 
                 <div class="d-flex justify-content-center content_slide_2">
@@ -66,7 +78,7 @@
                         <img class="img-fluid shadow-lg" src="img/nina1.jpg" alt="Foto de Ingrid Chaves" style="height: 88.2dvh;">
 
                     </div>
-                    
+            
 
                     <div class="col-6 d-flex flex-column justify-content-center">
 
@@ -99,9 +111,14 @@
 
 
 
+
+
+
+
+    
+
     <!--  JAVASCRIPT  -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
 </body>
-
 </html>
