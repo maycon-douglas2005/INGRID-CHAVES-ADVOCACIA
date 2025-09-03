@@ -23,10 +23,10 @@
 
         <div class="carousel-inner">
 
-            <section class="carousel-item active " data-bs-interval="1000000">
-                <div class="content_slide_1 d-flex justify-content-center">
+            <section class="carousel-item active " id="tela1" data-bs-interval="1000000">
+                <div class="content_slide_1 d-flex flex-column flex-sm-row justify-content-center">
 
-                    <div class="col-6 d-flex flex-column justify-content-evenly">
+                    <div class="col-12 col-sm-6 d-flex flex-column justify-content-evenly">
                         <div class="row nomeEbio ms-2 mt-2">
                             <h1 class="fs-3">INGRID CAROLINE ALVES PEREIRA CHAVES</h1>
                             <p class="fs-5 d-none d-md-flex">
@@ -58,7 +58,7 @@
                         </div>
                     </div>
 
-                    <div class="col-4">
+                    <div class="col-12 col-sm-4 mb-2">
                         <div class="row d-flex justify-content-center align-items-center">
                             <img class="img-fluid shadow-lg " style="height: 88.2dvh;" src="img/nina2.jpg" alt="Foto de perfil de Ingrid Chaves">
 
@@ -66,21 +66,22 @@
 
                     </div>
 
+                    <a class="py-3 mb-2 d-flex d-sm-none btn btn-success col-12 fw-bold justify-content-center fs-4" href="https://wa.me/5511958337562?text=Olá!%20Eu%20gostaria%20de%20realizar%20um%20agendamento.">FALE COMIGO<img src="img/whats.png" style="margin-left: 5px; height: 35px;" alt="WhatsApp"></a>
                 </div>
 
             </section>
 
-            <section class="carousel-item " data-bs-interval="1000000">
+            <section class="carousel-item " data-bs-interval="1000000" id="tela2">
                 
 
-                <div class="d-flex justify-content-center content_slide_2">
-                    <div class="col-4 d-flex justify-content-center">
+                <div class="d-flex flex-column flex-sm-row justify-content-center content_slide_2">
+                    <div class="col-12 col-sm-4 d-flex justify-content-center">
                         <img class="img-fluid shadow-lg" src="img/nina1.jpg" alt="Foto de Ingrid Chaves" style="height: 88.2dvh;">
 
                     </div>
             
 
-                    <div class="col-6 d-flex flex-column justify-content-center">
+                    <div class="col-12 col-sm-6 d-flex flex-column justify-content-center">
 
                         <h2 class="align-self-center">CONTATO</h2>
                         
@@ -94,13 +95,13 @@
                 </div>
             </section>
 
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselFather" data-bs-slide="prev">
+            <button class="d-none d-sm-flex carousel-control-prev h-auto" type="button" data-bs-target="#carouselFather" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
                
             </button>
 
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselFather" data-bs-slide="next">
+            <button class="d-none d-sm-flex carousel-control-next h-auto" type="button" data-bs-target="#carouselFather" data-bs-slide="next">
                 <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
                 
