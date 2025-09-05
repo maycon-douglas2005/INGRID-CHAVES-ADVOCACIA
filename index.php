@@ -1,48 +1,133 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ingrid Chaves - Advocacia</title>
-    <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="css/header.css">
-    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <style>
+        #btnVoltar, #btnAvancar{
+            width: 100px;
+        }
+        #btnVoltar:hover, #btnAvancar:hover{
+            background-color: gray;            
+        }
+    </style>
 </head>
+
 <body>
 
-    <?php include('include/header.html') ?>
-    
-    <main id="main"> 
-        
-        <div class="nomeEbio">
-            <h1>INGRID CAROLINE ALVES PEREIRA CHAVES</h1>
-            <p>
-                Advogada e bacharel em Direito pela 
-                FACULDADE FAPAN, atuante na área 
-                jurídica desde 2020 e com vasta 
-                experiência em Direito Trabalhista, 
-                Direito do Consumidor, Direito Civil, 
-                Direito de Família e Direito Criminal, inclusive 
-                em demandas extrajudiciais.  
-            </p>
+
+
+
+
+
+
+
+    <?php include('include/header.html'); ?>
+
+    <main class="carousel slide container-fluid" id="carouselFather" data-bs-ride="carousel">
+
+        <div class="carousel-inner">
+
+            <section class="carousel-item active " id="tela1" data-bs-interval="16000">
+                <div class="content_slide_1 d-flex flex-column flex-sm-row justify-content-center">
+
+                    <div class="col-12 col-sm-6 d-flex flex-column justify-content-evenly">
+                        <div class="row nomeEbio ms-2 mt-2">
+                            <h1 class="fs-3">INGRID CAROLINE ALVES PEREIRA CHAVES</h1>
+                            <p class="fs-5 d-none d-md-flex">
+                                Advogada e bacharel em Direito pela
+                                FACULDADE FAPAN, atuante na área
+                                jurídica desde 2020 e com vasta
+                                experiência em Direito Trabalhista,
+                                Direito do Consumidor, Direito Civil,
+                                Direito de Família e Direito Criminal, inclusive
+                                em demandas extrajudiciais.
+                            </p>
+                            <p class="fs-5 d-flex d-md-none">
+                                Advogada com mais de 5 anos de mercado.</span> <br>
+                                Especialista em Direito Trabalhista. <br>                              
+                            </p>
+                        </div>
+
+                        <div class="row especialidades ms-2 mt-2">
+                            <h2>Especialidades:</h2>
+
+                            <ul class="list-unstyled">
+                                <li class="fs-5 ps-1 my-1 col-11 col-lg-9 col-xl-9" style="color: white; background-color: #2c2f36cf;">Atuação Estratégica no Direito do Trabalhador</li>
+                                <li class="fs-5 ps-1 my-1 col-11 col-lg-6 col-xl-6" style="color: white; background-color: #2c2f36cf;">Direito do Consumidor</li>
+                                <li class="fs-5 ps-1 my-1 col-11 col-lg-3 col-xl-3" style="color: white; background-color: #2c2f36cf;">Direito Civil</li>
+                                <li class="fs-5 ps-1 my-1 col-11 col-lg-5 col-xl-6" style="color: white; background-color: #2c2f36cf;">Direito de Família</li>
+                                <li class="fs-5 ps-1 my-1 col-11 col-lg-4 col-xl-4" style="color: white; background-color: #2c2f36cf;">Direito Criminal</li>
+                            </ul>
+                            
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-4 mb-2">
+                        <div class="row d-flex justify-content-center align-items-center">
+                            <img class="img-fluid shadow-lg " style="height: 88.2dvh;" src="img/nina2.jpg" alt="Foto de perfil de Ingrid Chaves">
+
+                        </div>
+
+                    </div>
+
+                    <a class="py-3 mb-2 d-flex d-sm-none btn btn-success col-12 fw-bold justify-content-center fs-4" href="https://wa.me/5511958337562?text=Olá!%20Eu%20gostaria%20de%20realizar%20um%20agendamento.">FALE COMIGO<img src="img/whats.png" style="margin-left: 5px; height: 35px;" alt="WhatsApp"></a>
+                </div>
+
+            </section>
+
+            <section class="carousel-item " data-bs-interval="16000" id="tela2">
+                
+
+                <div class="d-flex flex-column flex-sm-row justify-content-center content_slide_2">
+                    <div class="mb-2 mb-sm-0 order-2 order-sm-1 col-12 col-sm-4 d-flex justify-content-center">
+                        <img class="img-fluid shadow-lg" src="img/nina1.jpg" alt="Foto de Ingrid Chaves" style="height: 88.2dvh;">
+
+                    </div>
+            
+
+                    <div class="order-1 order-sm-2 col-12 col-sm-6 d-flex flex-column justify-content-center">
+
+                        <h2 class="align-self-center">CONTATO</h2>
+                        
+                        <p class="col-auto fs-5 ms-3 ps-1 pb-1" style="color: white; background-color: #2c2f36cf;">Tipo de Consultoria: Online e Presencial (com hora marcada)</p>
+                        <p class="col-auto fs-5 ms-3 ps-1 w-75" style="color: white; background-color: #2c2f36cf;"><a class="text-light text-decoration-none link-primary" href="https://wa.me/5511958337562?text=Olá!%20Eu%20gostaria%20de%20realizar%20um%20agendamento." aria-label="Enviar uma mensagem no WhatsApp para Ingrid Chaves">Agende pelo WhatsApp: (11) 95833-7562 <img style="width: 30px;" id="iconeWhatsApp" src="img/whats.png" alt="icone do aplicativo whatszapp"></a></p>
+                        <p class="col-auto fs-5 ms-3 ps-1 w-75" style="color: white; background-color: #2c2f36cf;"><a class="text-light text-decoration-none link-primary" href="mailto:ingridcaroline@gmail.com?subject=Realizar%20Agendamento&body=Olá!%20Eu%20gostaria%20de%20realizar%20um%20agendamento..." aria-label="Enviar um E-mail para Ingrid Chaves">Agende pelo email: ingridcaroline@gmail.com<img style="width: 30px;" class="ms-2" src="img/email.png" id="iconeGmail" alt="icone do Gmail"></a></p>
+                        
+                    </div>
+
+
+                </div>
+            </section>
+
+            <button id="btnVoltar" class=" d-none d-sm-flex carousel-control-prev" type="button" data-bs-target="#carouselFather" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+               
+            </button>
+
+            <button id="btnAvancar" class="d-none d-sm-flex carousel-control-next" type="button" data-bs-target="#carouselFather" data-bs-slide="next">
+                <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+                
+            </button>
         </div>
-
-        <div class="especialidades">
-            <h2>Especialidades:</h2>
-
-            <p>Atuação Estratégica no Direito do Trabalhador</p>
-            <p>Direito do Consumidor</p>
-            <p>Direito Civil</p>
-            <p>Direito de Família</p>
-            <p>Direito Criminal</p>
-        </div>
-
-        <img src="img/nina2.jpg" alt="Foto de perfil de Ingrid Chaves">
-
-        <div class="botao"></div>
     </main>
+
+
+
+
+
+
+
+
     
-    <script src="js/botaoIndex.js"></script>
+
+    <!--  JAVASCRIPT  -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
 </body>
 </html>
