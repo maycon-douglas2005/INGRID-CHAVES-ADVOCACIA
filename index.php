@@ -6,6 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ingrid Chaves - Advocacia</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <style>
+        #btnVoltar, #btnAvancar{
+            width: 100px;
+        }
+        #btnVoltar:hover, #btnAvancar:hover{
+            background-color: gray;            
+        }
+    </style>
 </head>
 
 <body>
@@ -23,7 +31,7 @@
 
         <div class="carousel-inner">
 
-            <section class="carousel-item active " id="tela1" data-bs-interval="1000000">
+            <section class="carousel-item active " id="tela1" data-bs-interval="16000">
                 <div class="content_slide_1 d-flex flex-column flex-sm-row justify-content-center">
 
                     <div class="col-12 col-sm-6 d-flex flex-column justify-content-evenly">
@@ -71,23 +79,23 @@
 
             </section>
 
-            <section class="carousel-item " data-bs-interval="1000000" id="tela2">
+            <section class="carousel-item " data-bs-interval="16000" id="tela2">
                 
 
                 <div class="d-flex flex-column flex-sm-row justify-content-center content_slide_2">
-                    <div class="col-12 col-sm-4 d-flex justify-content-center">
+                    <div class="mb-2 mb-sm-0 order-2 order-sm-1 col-12 col-sm-4 d-flex justify-content-center">
                         <img class="img-fluid shadow-lg" src="img/nina1.jpg" alt="Foto de Ingrid Chaves" style="height: 88.2dvh;">
 
                     </div>
             
 
-                    <div class="col-12 col-sm-6 d-flex flex-column justify-content-center">
+                    <div class="order-1 order-sm-2 col-12 col-sm-6 d-flex flex-column justify-content-center">
 
                         <h2 class="align-self-center">CONTATO</h2>
                         
-                        <p class="col-auto fs-5 h2 ms-3 ps-1 pb-1" style="color: white; background-color: #2c2f36cf;">Tipo de Consultoria: Online e Presencial (com hora marcada)</p>
-                        <p class="col-auto fs-5 h2 ms-3 ps-1 w-75" style="color: white; background-color: #2c2f36cf;">Agende pelo WhatsApp: (11) 95833-7562 <a href="https://wa.me/5511958337562?text=Olá!%20Eu%20gostaria%20de%20realizar%20um%20agendamento." aria-label="Enviar uma mensagem no WhatsApp para Ingrid Chaves"><img style="width: 30px;" id="iconeWhatsApp" src="img/whats.png" alt="icone do aplicativo whatszapp"></a></p>
-                        <p class="col-auto fs-5 h2 ms-3 ps-1 w-75" style="color: white; background-color: #2c2f36cf;">Agende pelo email: ingridcaroline@gmail.com <a href="mailto:ingridcaroline@gmail.com?subject=Realizar%20Agendamento&body=Olá!%20Eu%20gostaria%20de%20realizar%20um%20agendamento..." aria-label="Enviar um E-mail para Ingrid Chaves"><img style="width: 30px;" src="img/email.png" id="iconeGmail" alt="icone do Gmail"></a></p>
+                        <p class="col-auto fs-5 ms-3 ps-1 pb-1" style="color: white; background-color: #2c2f36cf;">Tipo de Consultoria: Online e Presencial (com hora marcada)</p>
+                        <p class="col-auto fs-5 ms-3 ps-1 w-75" style="color: white; background-color: #2c2f36cf;"><a class="text-light text-decoration-none link-primary" href="https://wa.me/5511958337562?text=Olá!%20Eu%20gostaria%20de%20realizar%20um%20agendamento." aria-label="Enviar uma mensagem no WhatsApp para Ingrid Chaves">Agende pelo WhatsApp: (11) 95833-7562 <img style="width: 30px;" id="iconeWhatsApp" src="img/whats.png" alt="icone do aplicativo whatszapp"></a></p>
+                        <p class="col-auto fs-5 ms-3 ps-1 w-75" style="color: white; background-color: #2c2f36cf;"><a class="text-light text-decoration-none link-primary" href="mailto:ingridcaroline@gmail.com?subject=Realizar%20Agendamento&body=Olá!%20Eu%20gostaria%20de%20realizar%20um%20agendamento..." aria-label="Enviar um E-mail para Ingrid Chaves">Agende pelo email: ingridcaroline@gmail.com<img style="width: 30px;" class="ms-2" src="img/email.png" id="iconeGmail" alt="icone do Gmail"></a></p>
                         
                     </div>
 
@@ -95,13 +103,13 @@
                 </div>
             </section>
 
-            <button class="d-none d-sm-flex carousel-control-prev h-auto" type="button" data-bs-target="#carouselFather" data-bs-slide="prev">
+            <button id="btnVoltar" class=" d-none d-sm-flex carousel-control-prev" type="button" data-bs-target="#carouselFather" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
                
             </button>
 
-            <button class="d-none d-sm-flex carousel-control-next h-auto" type="button" data-bs-target="#carouselFather" data-bs-slide="next">
+            <button id="btnAvancar" class="d-none d-sm-flex carousel-control-next" type="button" data-bs-target="#carouselFather" data-bs-slide="next">
                 <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
                 
