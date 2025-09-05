@@ -19,13 +19,56 @@
 <body>
 
 
+<header class="container-fluid bg-secondary">
+  <section
+    class="row justify-content-between justify-content-sm-around align-items-center"
+  >
+    <div class="col-auto text-center">
+      <h4 class="m-0 text-black">INGRID CHAVES</h4>
+      <hr class="m-0 border border-1 border-warning" />
+      <h4 class="m-0 text-black">ADVOCACIA</h4>
+    </div>
 
+    <div class="d-none d-sm-flex col-auto frase text-center mt-1">
+      <p
+        class="text-warning fst-italic shadow p-1"
+        style="background-color: #2c2f36a6"
+      >
+        A ADVOCACIA FOCADA NO MELHOR RESULTADO PARA <br />
+        O SEU DIREITO
+      </p>
+    </div>
 
+    <nav class="dropdown col-6 d-flex justify-content-end d-sm-none">
+      <button type="button" data-bs-toggle="dropdown" class="btn w-25">
+        <img src="img/hamb.png" class="img-fluid" alt="" />
+      </button>
 
-
-
-
-    <?php include('include/header.html'); ?>
+      <ul class="dropdown-menu list-unstyled bg-secondary text-center">
+        <li>
+          <a
+            class="text-warning dropdown-item"
+            href=""
+            data-bs-target="#carouselFather"
+            data-bs-slide-to="0"
+            >SOBRE MIM</a
+          >
+        </li>
+        <li class=""><hr class="dropdown-divider" /></li>
+        <li>
+          <a
+            class="text-warning dropdown-item"
+            href=""
+            data-bs-target="#carouselFather"
+            data-bs-slide-to="1"
+            >CONTATO</a
+          >
+        </li>
+      </ul>
+    </nav>
+  </section>
+</header>
+    
 
     <main class="carousel slide container-fluid" id="carouselFather" data-bs-ride="carousel">
 
